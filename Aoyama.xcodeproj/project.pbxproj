@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F47F9A021B1B12B700583CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A011B1B12B700583CFA /* AppDelegate.swift */; };
-		F47F9A041B1B12B700583CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A031B1B12B700583CFA /* ViewController.swift */; };
-		F47F9A071B1B12B700583CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A051B1B12B700583CFA /* Main.storyboard */; };
-		F47F9A091B1B12B700583CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A081B1B12B700583CFA /* Images.xcassets */; };
-		F47F9A0C1B1B12B700583CFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A0A1B1B12B700583CFA /* LaunchScreen.xib */; };
 		F47F9A181B1B12B800583CFA /* AoyamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A171B1B12B800583CFA /* AoyamaTests.swift */; };
+		F47F9A2B1B1B12E900583CFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A231B1B12E900583CFA /* AppDelegate.swift */; };
+		F47F9A2C1B1B12E900583CFA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A241B1B12E900583CFA /* LaunchScreen.xib */; };
+		F47F9A2D1B1B12E900583CFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A261B1B12E900583CFA /* Main.storyboard */; };
+		F47F9A2E1B1B12E900583CFA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A281B1B12E900583CFA /* Images.xcassets */; };
+		F47F9A2F1B1B12E900583CFA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47F9A291B1B12E900583CFA /* Info.plist */; };
+		F47F9A301B1B12E900583CFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A2A1B1B12E900583CFA /* ViewController.swift */; };
+		F47F9A321B1B12FF00583CFA /* Aoyama.swift in Sources */ = {isa = PBXBuildFile; fileRef = F47F9A311B1B12FF00583CFA /* Aoyama.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,15 +29,16 @@
 
 /* Begin PBXFileReference section */
 		F47F99FC1B1B12B700583CFA /* Aoyama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aoyama.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F47F9A001B1B12B700583CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F47F9A011B1B12B700583CFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F47F9A031B1B12B700583CFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F47F9A061B1B12B700583CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F47F9A081B1B12B700583CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F47F9A0B1B1B12B700583CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F47F9A111B1B12B800583CFA /* AoyamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AoyamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47F9A161B1B12B800583CFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F47F9A171B1B12B800583CFA /* AoyamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AoyamaTests.swift; sourceTree = "<group>"; };
+		F47F9A231B1B12E900583CFA /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F47F9A251B1B12E900583CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F47F9A271B1B12E900583CFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F47F9A281B1B12E900583CFA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F47F9A291B1B12E900583CFA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F47F9A2A1B1B12E900583CFA /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F47F9A311B1B12FF00583CFA /* Aoyama.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aoyama.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +62,8 @@
 		F47F99F31B1B12B700583CFA = {
 			isa = PBXGroup;
 			children = (
-				F47F99FE1B1B12B700583CFA /* Aoyama */,
+				F47F9A211B1B12E900583CFA /* Aoyama */,
+				F47F9A221B1B12E900583CFA /* AoyamaDemo */,
 				F47F9A141B1B12B800583CFA /* AoyamaTests */,
 				F47F99FD1B1B12B700583CFA /* Products */,
 			);
@@ -72,27 +76,6 @@
 				F47F9A111B1B12B800583CFA /* AoyamaTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F47F99FE1B1B12B700583CFA /* Aoyama */ = {
-			isa = PBXGroup;
-			children = (
-				F47F9A011B1B12B700583CFA /* AppDelegate.swift */,
-				F47F9A031B1B12B700583CFA /* ViewController.swift */,
-				F47F9A051B1B12B700583CFA /* Main.storyboard */,
-				F47F9A081B1B12B700583CFA /* Images.xcassets */,
-				F47F9A0A1B1B12B700583CFA /* LaunchScreen.xib */,
-				F47F99FF1B1B12B700583CFA /* Supporting Files */,
-			);
-			path = Aoyama;
-			sourceTree = "<group>";
-		};
-		F47F99FF1B1B12B700583CFA /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F47F9A001B1B12B700583CFA /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		F47F9A141B1B12B800583CFA /* AoyamaTests */ = {
@@ -110,6 +93,27 @@
 				F47F9A161B1B12B800583CFA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F47F9A211B1B12E900583CFA /* Aoyama */ = {
+			isa = PBXGroup;
+			children = (
+				F47F9A311B1B12FF00583CFA /* Aoyama.swift */,
+			);
+			path = Aoyama;
+			sourceTree = "<group>";
+		};
+		F47F9A221B1B12E900583CFA /* AoyamaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F47F9A231B1B12E900583CFA /* AppDelegate.swift */,
+				F47F9A2A1B1B12E900583CFA /* ViewController.swift */,
+				F47F9A241B1B12E900583CFA /* LaunchScreen.xib */,
+				F47F9A261B1B12E900583CFA /* Main.storyboard */,
+				F47F9A281B1B12E900583CFA /* Images.xcassets */,
+				F47F9A291B1B12E900583CFA /* Info.plist */,
+			);
+			path = AoyamaDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,9 +196,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47F9A071B1B12B700583CFA /* Main.storyboard in Resources */,
-				F47F9A0C1B1B12B700583CFA /* LaunchScreen.xib in Resources */,
-				F47F9A091B1B12B700583CFA /* Images.xcassets in Resources */,
+				F47F9A2F1B1B12E900583CFA /* Info.plist in Resources */,
+				F47F9A2E1B1B12E900583CFA /* Images.xcassets in Resources */,
+				F47F9A2C1B1B12E900583CFA /* LaunchScreen.xib in Resources */,
+				F47F9A2D1B1B12E900583CFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +217,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F47F9A041B1B12B700583CFA /* ViewController.swift in Sources */,
-				F47F9A021B1B12B700583CFA /* AppDelegate.swift in Sources */,
+				F47F9A301B1B12E900583CFA /* ViewController.swift in Sources */,
+				F47F9A321B1B12FF00583CFA /* Aoyama.swift in Sources */,
+				F47F9A2B1B1B12E900583CFA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,20 +242,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F47F9A051B1B12B700583CFA /* Main.storyboard */ = {
+		F47F9A241B1B12E900583CFA /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F47F9A061B1B12B700583CFA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F47F9A0A1B1B12B700583CFA /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F47F9A0B1B1B12B700583CFA /* Base */,
+				F47F9A251B1B12E900583CFA /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F47F9A261B1B12E900583CFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F47F9A271B1B12E900583CFA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -342,7 +348,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Aoyama/Info.plist;
+				INFOPLIST_FILE = AoyamaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -352,7 +358,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Aoyama/Info.plist;
+				INFOPLIST_FILE = AoyamaDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
