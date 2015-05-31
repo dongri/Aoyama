@@ -16,8 +16,8 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        //aoyama.baseURL = "https://resters.herokuapp.com"
-        aoyama.baseURL = "http://localhost:5000"
+        aoyama.baseURL = "https://resters.herokuapp.com"
+        //aoyama.baseURL = "http://localhost:5000"
     }
 
     override func didReceiveMemoryWarning() {
